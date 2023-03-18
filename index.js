@@ -1,23 +1,13 @@
 // Code your solutions in this file
-const guests = ["Guadalupe","Ollie", "Aki"];
-/*function writeCards(guests) {
-    const thankYouMessages = [];
-    for (let i = 0; i < guests.length; i++) {
-      thankYouMessages.push(`Thank you, ${guests[i]}, for the wonderful surprise gift! `);
-    }
-    return thankYouMessages;
-    console.log(thankYouMessages);
-  }
-*/
-function writeCards(names) {
+function writeCards(guests) {
     const messages = [];
-    for (let i = 0; i < names.length; i++) {
-      messages.push(`Thank you, ${names[i]}, for the wonderful surprise gift!`);
+    for (let i = 0; i < guests.length; i++) {
+      messages.push(`Thank you, ${guests[i]}, for the wonderful surprise gift!`);
     }
     return messages;
   }
-  const names = ["Guadalupe","Ollie", "Aki"];
-  const messages = writeCards(names);
+  const guests = ["Guadalupe","Ollie", "Aki"];
+  const messages = writeCards(guests);
   console.log(messages);
 
 
